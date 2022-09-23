@@ -1,8 +1,8 @@
-Q1_TARGET = ../build/Quest_1
-Q2_TARGET = ../build/Quest_2
-Q3_TARGET = ../build/Quest_3
-Q4_TARGET = ../build/Quest_4
-Q5_TARGET = ../build/Quest_5
+Q1_TARGET = Quest_1
+Q2_TARGET = Quest_2
+Q3_TARGET = Quest_3
+Q4_TARGET = Quest_4
+Q5_TARGET = Quest_5
 
 run: clear_screen ${Q5_TARGET}
 	./${Q5_TARGET}
